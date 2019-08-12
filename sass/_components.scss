@@ -1,0 +1,45 @@
+.header {
+  height: 93px;
+}
+.hero-banner {
+  // background
+  background-image: url('../img/header-background.jpg');
+  background-color: #000000;
+  height: 678px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+  // text
+  color: white;
+  text-align: center;
+
+  &__header {
+    font-size: 54px;
+    padding-top: 187px;
+    max-width: 1254px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    font-family: Lato sans-serif;
+  }
+  &__subheader {
+    font-size: 36px;
+    font-family: Roboto sans-serif;
+    margin-top: 3px;
+    margin-bottom: 44px;
+  }
+  &__button {
+    font-size: 27px;
+    font-family: Lato;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: #4160a7;
+    text-transform: uppercase;
+    border: none;
+    padding: 14px 48px 14px 26px;
+    border-radius: 7px;
+  }
+}
