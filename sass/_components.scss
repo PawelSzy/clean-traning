@@ -1,3 +1,4 @@
+
 .header {
   background-color: #eaeaea;
   &__navigation {
@@ -19,13 +20,13 @@
   &__item {
     padding-top: 24px;
     font-size: 26px;
-    font-family: 'Roboto', sans-serif;
-    color: #000000;
+    font-family: $main-font;
+    color: $font-color-main;
     & a {
-      color: #000000;
+      color: $font-color-main;
     }
     &--active, &--active > a {
-      color: #4160a7;
+      color: $emphasis-color;
       font-weight: bold;
     }
   }
@@ -54,20 +55,20 @@
     margin-left: auto;
     margin-right: auto;
     font-style: italic;
-    font-family: 'Lato', sans-serif;
+    font-family: $header-font;
   }
   &__subheader {
     font-size: 36px;
-    font-family: 'Roboto', sans-serif;
+    font-family: $main-font;
     margin-top: 3px;
     margin-bottom: 44px;
   }
   &__button {
     font-size: 27px;
-    font-family: 'Lato', sans-serif;
+    font-family: $button-font;
     font-weight: bold;
     letter-spacing: 2px;
-    background-color: #4160a7;
+    background-color: $emphasis-color;
     text-transform: uppercase;
     border: none;
     padding: 14px 48px 14px 26px;

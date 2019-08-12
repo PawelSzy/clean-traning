@@ -193,5 +193,7 @@ body {
    User Styles import fromt scss files
    ========================================================================== */
 
+@import 'colors';
+@import 'fonts';
 @import "layout";
 @import "components";
