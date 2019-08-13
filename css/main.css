@@ -173,12 +173,14 @@ textarea {
 .hero-banner {
   background-image: url("../img/header-background.jpg");
   background-color: #000000;
-  height: 678px;
+  height: 1182px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   text-align: center; }
+  .hero-banner__up {
+    background-color: rgba(0, 0, 0, 0.6); }
   .hero-banner__header {
     font-size: 54px;
     padding-top: 187px;
@@ -201,6 +203,18 @@ textarea {
     border: none;
     padding: 14px 48px 14px 26px;
     border-radius: 7px; }
+  .hero-banner__register-form {
+    margin-top: 163px; }
+  .hero-banner .hero-banner__bottom-text {
+    color: #0c0a15;
+    text-transform: uppercase;
+    margin-top: 79px;
+    margin-bottom: auto;
+    text-align: left;
+    margin-left: 146px;
+    font-family: "Lato", sans-serif;
+    font-size: 52px;
+    font-style: italic; }
 
 .register-form {
   text-transform: uppercase;
