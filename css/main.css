@@ -202,4 +202,48 @@ textarea {
     padding: 14px 48px 14px 26px;
     border-radius: 7px; }
 
+.register-form {
+  text-transform: uppercase;
+  background-color: #4160a7; }
+  .register-form .register-form_container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 24px;
+    padding-bottom: 31px; }
+  .register-form__header {
+    width: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 47px;
+    text-transform: uppercase;
+    margin-left: 52px;
+    font-style: italic; }
+  .register-form__form {
+    width: 61%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .register-form__input {
+    border-radius: 8px;
+    height: 49px;
+    padding-left: 22px;
+    font-size: 23px; }
+    .register-form__input--name, .register-form__input--email {
+      width: 276px;
+      margin-right: 22px; }
+    .register-form__input--phone {
+      width: 397px;
+      margin-right: 47px;
+      margin-top: 25px; }
+  .register-form__button {
+    border-radius: 8px;
+    height: 54px;
+    width: 132px;
+    margin-top: auto;
+    background-color: #000000;
+    color: white;
+    font-size: 21px;
+    border: none;
+    text-transform: uppercase; }
+
 /*# sourceMappingURL=maps/main.css.map */

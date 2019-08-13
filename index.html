@@ -64,14 +64,16 @@
         </header>
 
         <div class="register-form">
-            <h2 class="register-form_header">Register now<h2>
+            <div class="register-form_container small-container">
+                <h2 class="register-form__header">Register now</h2>
 
-            <form action="">
-                <input type="text" name="Name" value="Name" id="" />
-                <input type="text" name="Email" value="Email" id="" />
-                <input type="text" name="Phone" value="Phone" id="" />
-                <input type="submit" name="Submit" value="Send" />
-            </form>
+                <form class="register-form__form form" action="">
+                    <input class="register-form__input register-form__input--name" type="text" name="name" placeholder="Name" id="" />
+                    <input class="register-form__input register-form__input--email" type="text" name="email" placeholder="Email" id="" />
+                    <input class="register-form__input register-form__input--phone"  type="text" name="phone" placeholder="Phone" id="" />
+                    <input class="button register-form__button" type="submit" name="Submit" value="Send" />
+                </form>
+            </div>
         </div>
 
         <div></div>
