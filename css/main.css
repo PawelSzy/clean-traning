@@ -137,6 +137,11 @@ textarea {
   margin-left: auto;
   margin-right: auto; }
 
+.medium-container {
+  width: 1320px;
+  margin-left: auto;
+  margin-right: auto; }
+
 .small-container {
   width: 1200px;
   margin-left: auto;
@@ -259,5 +264,38 @@ textarea {
     font-size: 21px;
     border: none;
     text-transform: uppercase; }
+
+.boxes {
+  background-color: #fefefe;
+  background-image: url("../img/boxes-background-transparent.png");
+  height: 750px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 80px; }
+  .boxes__box {
+    width: 322px;
+    padding: 100px 30px 95px;
+    border: 2px solid;
+    border-color: #fcfcfc;
+    border-radius: 10px;
+    height: min-content;
+    min-height: 516px;
+    box-shadow: 7px 8px 48px -4px rgba(0, 0, 0, 0.34);
+    background-color: white;
+    position: relative; }
+    .boxes__box:nth-child(2) {
+      top: -55px; }
+    .boxes__box:nth-child(3) {
+      top: -110px; }
+    .boxes__box:nth-child(4) {
+      top: -165px; }
+    .boxes__box__header {
+      font-size: 23px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      padding-bottom: 16px; }
+    .boxes__box__content {
+      font-size: 21px; }
 
 /*# sourceMappingURL=maps/main.css.map */
