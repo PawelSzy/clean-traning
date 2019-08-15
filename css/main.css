@@ -317,10 +317,25 @@ textarea {
     margin-left: 37px;
     margin-top: 9px;
     font-style: italic; }
+  .slider-box__element {
+    text-align: center;
+    font-size: 26px;
+    text-transform: uppercase; }
+    .slider-box__element__icon {
+      height: 116px;
+      width: 116px;
+      border-radius: 110px;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0 0 0 10px #4260a8, 0 0 0 20px #8194be, 0 0 0 30px #adb8d4;
+      margin-top: 34px; }
+    .slider-box__element__text {
+      margin-top: 63px; }
 
 .carousel-slider {
   margin-left: auto;
   margin-right: auto;
-  width: 1350px; }
+  width: 1350px;
+  margin-top: 92px; }
 
 /*# sourceMappingURL=maps/main.css.map */
