@@ -318,4 +318,9 @@ textarea {
     margin-top: 9px;
     font-style: italic; }
 
+.carousel-slider {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1350px; }
+
 /*# sourceMappingURL=maps/main.css.map */
