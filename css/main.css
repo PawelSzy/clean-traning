@@ -272,24 +272,25 @@ textarea {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-top: 80px; }
+  padding-top: 80px;
+  align-items: stretch; }
   .boxes__box {
     width: 322px;
-    padding: 100px 30px 95px;
+    padding: 90px 30px 95px;
     border: 2px solid;
     border-color: #fcfcfc;
     border-radius: 10px;
-    height: min-content;
     min-height: 516px;
     box-shadow: 7px 8px 48px -4px rgba(0, 0, 0, 0.34);
     background-color: white;
-    position: relative; }
+    position: relative;
+    flex-grow: 1; }
     .boxes__box:nth-child(2) {
-      top: -55px; }
+      top: -50px; }
     .boxes__box:nth-child(3) {
-      top: -110px; }
+      top: -100px; }
     .boxes__box:nth-child(4) {
-      top: -165px; }
+      top: -150px; }
     .boxes__box__header {
       font-size: 23px;
       font-weight: bold;
@@ -297,5 +298,12 @@ textarea {
       padding-bottom: 16px; }
     .boxes__box__content {
       font-size: 21px; }
+    .boxes__box--transparent-top {
+      border: 3px solid #ebf8f9;
+      position: relative;
+      z-index: 99;
+      background: none;
+      /* background-image: linear-gradient(rgba(0,0,0,0), red); */
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 19%); }
 
 /*# sourceMappingURL=maps/main.css.map */

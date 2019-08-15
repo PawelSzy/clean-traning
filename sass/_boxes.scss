@@ -6,25 +6,26 @@
   flex-direction: row;
   flex-wrap: wrap;
   padding-top: 80px;
+  align-items: stretch;
   &__box {
     width: 322px;
-    padding: 100px 30px 95px;
+    padding: 90px 30px 95px;
     border: 2px solid;
     border-color: #fcfcfc;
     border-radius: 10px;
-    height: min-content;
     min-height: 516px;
     box-shadow: 7px 8px 48px -4px rgba(0,0,0,0.34);
     background-color: rgb(255,255,255);
     position: relative;
+    flex-grow: 1;
      &:nth-child(2) {
-      top: -55px;
+      top: -50px;
     }
      &:nth-child(3) {
-      top: -110px;
+      top: -100px;
     }
      &:nth-child(4) {
-      top: -165px;
+      top: -150px;
     }
    &__header {
       font-size: 23px;
@@ -34,6 +35,14 @@
     }
     &__content {
       font-size: 21px;
+    }
+    &--transparent-top {
+      border: 3px solid #ebf8f9;
+      position: relative;
+      z-index: 99;
+      background: none;
+      /* background-image: linear-gradient(rgba(0,0,0,0), red); */
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 19%);
     }
   }
 }
