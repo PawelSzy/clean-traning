@@ -1,0 +1,16 @@
+.slider-box {
+  padding: 28px 0 95px;
+  background-color: $background-color-4;
+  &--header {
+    font-size: 47px;
+    margin-left: 33px;
+    font-family: $header-font;
+  }
+  &--subheader {
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-left: 37px;
+    margin-top: 9px;
+    font-style: italic;
+  }
+}
