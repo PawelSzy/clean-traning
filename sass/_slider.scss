@@ -25,6 +25,16 @@
       margin-right: auto;
       box-shadow: 0 0 0 10px #4260a8, 0 0 0 20px #8194be, 0 0 0 30px #adb8d4;
       margin-top: 34px;
+      line-height: 123px;
+      font-size: 55px;
+      text-indent: -5px;
+      color: #4260a8;
+      &--education {
+        background-image: url(../img/book-icon.png);
+        background-size: 71px;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
     }
     &__text {
       margin-top: 63px;
