@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  &__column {
+    flex: 1 0 25%;
+    &__header {
+      margin-top: 49px;
+      font-size: 30px;
+      text-indent: 24px;
+      font-family: $second-font;
+      &--explore-link {
+        text-indent: 50px;
+      }
+      &--latest-post {
+        text-indent: -38px;
+      }
+    }
+  }
+  &__last-line {
+    flex: auto;
+    flex-grow: 1;
+    flex-basis: 100%;
+    display: flex;
+  }
+}
