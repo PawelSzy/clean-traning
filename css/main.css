@@ -383,6 +383,9 @@ textarea {
     flex: auto;
     flex-grow: 1;
     flex-basis: 100%;
-    display: flex; }
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap; }
 
 /*# sourceMappingURL=maps/main.css.map */
