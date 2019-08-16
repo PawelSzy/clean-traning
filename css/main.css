@@ -347,4 +347,15 @@ textarea {
   width: 1350px;
   margin-top: 92px; }
 
+.slick-prev, .slick-next {
+  top: 36%; }
+
+.slick-prev {
+  left: -6px; }
+
+.slick-prev:before, .slick-next:before {
+  color: #d8d8d8;
+  font-family: "Font Awesome 5 Pro";
+  font-size: 55px; }
+
 /*# sourceMappingURL=maps/main.css.map */
