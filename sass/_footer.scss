@@ -14,7 +14,7 @@
         margin-bottom: 42px;
       }
       &--latest-post {
-        text-indent: -38px;
+        margin-bottom: 41px;
       }
     }
   }
@@ -55,6 +55,34 @@
     list-style: none;
     & > * {
       margin-top : 5px;
+    }
+  }
+}
+
+.latest-post {
+  &__post {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 31px;
+    &__date {
+      border: 1px solid #000000;
+      border-radius: 73px;
+      width: 72px;
+      height: 52px;
+      text-align: center;
+      font-size: 21px;
+      line-height: 28px;
+      padding-top: 3px;
+      &__month {
+        font-size: 15px;
+        line-height: 14px;
+      }
+    }
+    &__text {
+      margin-left: 18px;
+      align-self: center;
+      line-height: 23px;
     }
   }
 }

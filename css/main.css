@@ -379,7 +379,7 @@ textarea {
         text-indent: 50px;
         margin-bottom: 42px; }
       .footer__column__header--latest-post {
-        text-indent: -38px; }
+        margin-bottom: 41px; }
   .footer__last-line {
     flex: auto;
     flex-grow: 1;
@@ -407,5 +407,27 @@ textarea {
     list-style: none; }
     .explore-link__inside-link > * {
       margin-top: 5px; }
+
+.latest-post__post {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 31px; }
+  .latest-post__post__date {
+    border: 1px solid #000000;
+    border-radius: 73px;
+    width: 72px;
+    height: 52px;
+    text-align: center;
+    font-size: 21px;
+    line-height: 28px;
+    padding-top: 3px; }
+    .latest-post__post__date__month {
+      font-size: 15px;
+      line-height: 14px; }
+  .latest-post__post__text {
+    margin-left: 18px;
+    align-self: center;
+    line-height: 23px; }
 
 /*# sourceMappingURL=maps/main.css.map */
