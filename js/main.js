@@ -8,4 +8,8 @@ $(document).ready(function(){
         nextArrow: '<div class="slick-next fas fa-angle-right slick-arrow" aria-label="Previous" style="display: block;"></div>',
         variableWidth: true,
     });
+    $('.explore-link__outside_link').click(function() {
+        console.log('test');
+        $(this).children('.explore-link__inside-link').toggle();
+    });
 });

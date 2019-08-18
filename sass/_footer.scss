@@ -11,11 +11,15 @@
       font-family: $second-font;
       &--explore-link {
         text-indent: 50px;
+        margin-bottom: 42px;
       }
       &--latest-post {
         text-indent: -38px;
       }
     }
+  }
+  &__about-us {
+
   }
   &__last-line {
     flex: auto;
@@ -25,5 +29,32 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+  }
+}
+
+.about-us {
+  &__icon {
+    margin-bottom: 25px;
+  }
+}
+
+.explore-link {
+  font-size: 19px;
+  text-indent: 10px;
+  &__outside_link {
+    list-style: none;
+    margin-bottom: 7px;
+    cursor: pointer;
+    &:before {
+      content: "\23F5";
+      margin-right: 25px;
+    }
+  }
+  &__inside-link {
+    display: none;
+    list-style: none;
+    & > * {
+      margin-top : 5px;
+    }
   }
 }

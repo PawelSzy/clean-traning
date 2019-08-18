@@ -376,7 +376,8 @@ textarea {
       text-indent: 24px;
       font-family: "Lato", sans-serif; }
       .footer__column__header--explore-link {
-        text-indent: 50px; }
+        text-indent: 50px;
+        margin-bottom: 42px; }
       .footer__column__header--latest-post {
         text-indent: -38px; }
   .footer__last-line {
@@ -387,5 +388,24 @@ textarea {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap; }
+
+.about-us__icon {
+  margin-bottom: 25px; }
+
+.explore-link {
+  font-size: 19px;
+  text-indent: 10px; }
+  .explore-link__outside_link {
+    list-style: none;
+    margin-bottom: 7px;
+    cursor: pointer; }
+    .explore-link__outside_link:before {
+      content: "\23F5";
+      margin-right: 25px; }
+  .explore-link__inside-link {
+    display: none;
+    list-style: none; }
+    .explore-link__inside-link > * {
+      margin-top: 5px; }
 
 /*# sourceMappingURL=maps/main.css.map */
