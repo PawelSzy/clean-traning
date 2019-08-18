@@ -379,7 +379,8 @@ textarea {
         text-indent: 50px;
         margin-bottom: 42px; }
       .footer__column__header--latest-post {
-        margin-bottom: 41px; }
+        margin-bottom: 41px;
+        text-indent: 0; }
   .footer__last-line {
     flex: auto;
     flex-grow: 1;
@@ -408,6 +409,9 @@ textarea {
     .explore-link__inside-link > * {
       margin-top: 5px; }
 
+.latest-post > ul {
+  padding-left: 0; }
+
 .latest-post__post {
   list-style: none;
   display: flex;
@@ -416,7 +420,7 @@ textarea {
   .latest-post__post__date {
     border: 1px solid #000000;
     border-radius: 73px;
-    width: 72px;
+    width: 60px;
     height: 52px;
     text-align: center;
     font-size: 21px;
