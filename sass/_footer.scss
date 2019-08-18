@@ -17,10 +17,10 @@
         margin-bottom: 41px;
         text-indent: 0;
       }
+      &--contact-us {
+        margin-bottom: 36px;
+      }
     }
-  }
-  &__about-us {
-
   }
   &__last-line {
     flex: auto;
@@ -87,6 +87,30 @@
       margin-left: 18px;
       align-self: center;
       line-height: 23px;
+    }
+  }
+}
+
+.contact-us {
+  padding-left: 21px;
+  list-style: none;
+  font-size: 18px;
+  &__item {
+    display: flex;
+//    margin-bottom: 20px;
+    &:nth-child(1) {
+      margin-bottom: 30px;
+    }
+    &__icon {
+      margin-right: 31px;
+      margin-bottom: 38px;
+      font-size: 21px;
+    }
+    &__text {
+      max-width: 167px;
+      &--date {
+        max-width: initial;
+      }
     }
   }
 }

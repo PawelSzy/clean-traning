@@ -381,6 +381,8 @@ textarea {
       .footer__column__header--latest-post {
         margin-bottom: 41px;
         text-indent: 0; }
+      .footer__column__header--contact-us {
+        margin-bottom: 36px; }
   .footer__last-line {
     flex: auto;
     flex-grow: 1;
@@ -433,5 +435,22 @@ textarea {
     margin-left: 18px;
     align-self: center;
     line-height: 23px; }
+
+.contact-us {
+  padding-left: 21px;
+  list-style: none;
+  font-size: 18px; }
+  .contact-us__item {
+    display: flex; }
+    .contact-us__item:nth-child(1) {
+      margin-bottom: 30px; }
+    .contact-us__item__icon {
+      margin-right: 31px;
+      margin-bottom: 38px;
+      font-size: 21px; }
+    .contact-us__item__text {
+      max-width: 167px; }
+      .contact-us__item__text--date {
+        max-width: initial; }
 
 /*# sourceMappingURL=maps/main.css.map */
