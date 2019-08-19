@@ -287,17 +287,23 @@ textarea {
   .hero-banner__up {
     background-color: rgba(0, 0, 0, 0.6); }
   .hero-banner__header {
-    font-size: 54px;
-    padding-top: 187px;
+    font-size: 26px;
     margin-left: auto;
     margin-right: auto;
     font-style: italic;
     font-family: "Lato", sans-serif; }
+    @media (min-width: 720px) {
+      .hero-banner__header {
+        font-size: 54px;
+        padding-top: 187px; } }
   .hero-banner__subheader {
-    font-size: 36px;
+    font-size: 22px;
     font-family: "Roboto", sans-serif;
     margin-top: 3px;
     margin-bottom: 44px; }
+    @media (min-width: 720px) {
+      .hero-banner__subheader {
+        font-size: 36px; } }
   .hero-banner__button {
     font-size: 27px;
     font-family: "Lato", sans-serif;
@@ -313,13 +319,19 @@ textarea {
   .hero-banner .hero-banner__bottom-text {
     color: #0c0a15;
     text-transform: uppercase;
-    margin-top: 79px;
-    margin-bottom: auto;
-    text-align: left;
-    margin-left: 146px;
+    margin: 10px;
+    text-align: center;
     font-family: "Lato", sans-serif;
-    font-size: 52px;
+    font-size: 20px;
     font-style: italic; }
+    @media (min-width: 720px) {
+      .hero-banner .hero-banner__bottom-text {
+        margin-top: 79px;
+        font-size: 52px;
+        text-align: left;
+        margin-left: 146px;
+        margin-top: 20px;
+        margin-bottom: auto; } }
 
 .register-form {
   text-transform: uppercase;
@@ -333,14 +345,16 @@ textarea {
       .register-form .register-form_container {
         flex-direction: row; } }
   .register-form__header {
-    margin-top: auto;
-    margin-bottom: auto;
-    font-size: 47px;
+    margin-bottom: 15px;
+    font-size: 30px;
     text-transform: uppercase;
-    margin-left: 52px;
     font-style: italic; }
     @media (min-width: 1200px) {
       .register-form__header {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 47px;
+        margin-left: 52px;
         width: 40%; } }
   .register-form__form {
     display: flex;
@@ -426,15 +440,21 @@ textarea {
   padding: 28px 0 181px;
   background-color: #f5f5f5; }
   .slider-box--header {
-    font-size: 47px;
+    font-size: 25px;
     margin-left: 33px;
     font-family: "Lato", sans-serif; }
+    @media (min-width: 720px) {
+      .slider-box--header {
+        font-size: 47px; } }
   .slider-box--subheader {
-    font-size: 32px;
+    font-size: 20px;
     text-transform: uppercase;
     margin-left: 37px;
     margin-top: 9px;
     font-style: italic; }
+    @media (min-width: 720px) {
+      .slider-box--subheader {
+        font-size: 32px; } }
   .slider-box__element {
     text-align: center;
     font-size: 26px;
@@ -491,8 +511,11 @@ textarea {
 
 .footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap; }
+  @media (min-width: 1200px) {
+    .footer {
+      flex-direction: row; } }
   .footer__column {
     flex: 1 0 25%; }
     .footer__column__header {
@@ -516,7 +539,10 @@ textarea {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 52px; }
+    margin-top: 10px; }
+  @media (min-width: 1200px) {
+    .footer {
+      margin-top: 52px; } }
 
 .about-us__icon {
   margin-bottom: 25px; }

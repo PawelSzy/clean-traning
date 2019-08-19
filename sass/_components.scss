@@ -61,18 +61,24 @@
     background-color: rgba(0, 0, 0, 0.6);
   }
   &__header {
-    font-size: 54px;
-    padding-top: 187px;
+    font-size: 26px;
     margin-left: auto;
     margin-right: auto;
     font-style: italic;
     font-family: $header-font;
+    @media (min-width: 720px) {
+      font-size: 54px;
+      padding-top: 187px;
+    }
   }
   &__subheader {
-    font-size: 36px;
+    font-size: 22px;
     font-family: $main-font;
     margin-top: 3px;
     margin-bottom: 44px;
+    @media (min-width: 720px) {
+      font-size: 36px;
+    }
   }
   &__button {
     font-size: 27px;
@@ -92,13 +98,19 @@
   .hero-banner__bottom-text {
     color: #0c0a15;
     text-transform: uppercase;
-    margin-top: 79px;
-    margin-bottom: auto;
-    text-align: left;
-    margin-left: 146px;
+    margin: 10px;
+    text-align: center;
     font-family: $second-font;
-    font-size: 52px;
+    font-size: 20px;
     font-style: italic;
+    @media (min-width: 720px) {
+      margin-top: 79px;
+      font-size: 52px;
+      text-align: left;
+      margin-left: 146px;
+      margin-top: 20px;
+      margin-bottom: auto;
+    }
   }
 }
 
@@ -116,13 +128,15 @@
     }
   }
   &__header {
-    margin-top: auto;
-    margin-bottom: auto;
-    font-size: 47px;
+    margin-bottom: 15px;
+    font-size: 30px;
     text-transform: uppercase;
-    margin-left: 52px;
     font-style: italic;
     @media (min-width: 1200px) {
+      margin-top: auto;
+      margin-bottom: auto;
+      font-size: 47px;
+      margin-left: 52px;
       width: 40%;
     }
   }

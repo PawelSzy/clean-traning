@@ -18,9 +18,7 @@
     background-color: $background-color-2;
     position: relative;
     flex-grow: 1;
-//    @media (max-width: 720px) and (max-width: 1319px) {
-//      width: 25%;
-//    }
+
     @media (min-width: 1320px) {
       width: 322px;
       min-height: 516px;

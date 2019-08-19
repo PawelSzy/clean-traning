@@ -2,16 +2,22 @@
   padding: 28px 0 181px;
   background-color: $background-color-4;
   &--header {
-    font-size: 47px;
+    font-size: 25px;
     margin-left: 33px;
     font-family: $header-font;
+    @media (min-width: 720px) {
+      font-size: 47px;
+    }
   }
   &--subheader {
-    font-size: 32px;
+    font-size: 20px;
     text-transform: uppercase;
     margin-left: 37px;
     margin-top: 9px;
     font-style: italic;
+    @media (min-width: 720px) {
+      font-size: 32px;
+    }
   }
   &__element {
     text-align: center;
