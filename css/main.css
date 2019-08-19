@@ -390,7 +390,8 @@ textarea {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    margin-top: 52px; }
 
 .about-us__icon {
   margin-bottom: 25px; }
@@ -452,5 +453,22 @@ textarea {
       max-width: 167px; }
       .contact-us__item__text--date {
         max-width: initial; }
+
+.footer__copyright {
+  font-size: 19px;
+  text-indent: 22px;
+  letter-spacing: 1px;
+  font-style: italic; }
+
+.footer__contact-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-right: 25px;
+  padding-left: 0;
+  padding-top: 11px; }
+
+.footer__contact-icons_icon--facebook {
+  color: #ee6a22; }
 
 /*# sourceMappingURL=maps/main.css.map */

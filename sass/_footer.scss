@@ -30,6 +30,7 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top:52px;
   }
 }
 
@@ -97,7 +98,6 @@
   font-size: 18px;
   &__item {
     display: flex;
-//    margin-bottom: 20px;
     &:nth-child(1) {
       margin-bottom: 30px;
     }
@@ -113,4 +113,24 @@
       }
     }
   }
+}
+
+.footer__copyright {
+  font-size: 19px;
+  text-indent: 22px;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+.footer__contact-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-right: 25px;
+  padding-left: 0;
+  padding-top: 11px;
+}
+
+.footer__contact-icons_icon--facebook {
+  color: #ee6a22
 }
