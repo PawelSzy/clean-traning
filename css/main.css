@@ -333,30 +333,39 @@ textarea {
       .register-form .register-form_container {
         flex-direction: row; } }
   .register-form__header {
-    width: 40%;
     margin-top: auto;
     margin-bottom: auto;
     font-size: 47px;
     text-transform: uppercase;
     margin-left: 52px;
     font-style: italic; }
+    @media (min-width: 1200px) {
+      .register-form__header {
+        width: 40%; } }
   .register-form__form {
-    width: 61%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; }
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center; }
+    @media (min-width: 1200px) {
+      .register-form__form {
+        flex-direction: row;
+        width: 61%; } }
   .register-form__input {
     border-radius: 8px;
     height: 49px;
     padding-left: 22px;
-    font-size: 23px; }
-    .register-form__input--name, .register-form__input--email {
-      width: 276px;
-      margin-right: 22px; }
-    .register-form__input--phone {
-      width: 397px;
-      margin-right: 47px;
-      margin-top: 25px; }
+    font-size: 23px;
+    width: 276px;
+    margin-bottom: 10px; }
+    @media (min-width: 1200px) {
+      .register-form__input--name, .register-form__input--email {
+        margin-right: 22px; }
+      .register-form__input--phone {
+        width: 397px;
+        margin-right: 47px;
+        margin-top: 25px; } }
   .register-form__button {
     border-radius: 8px;
     height: 54px;
@@ -384,17 +393,14 @@ textarea {
     border: 2px solid;
     border-color: #fcfcfc;
     border-radius: 10px;
-    min-height: 516px;
     box-shadow: 7px 8px 48px -4px rgba(0, 0, 0, 0.34);
     background-color: #ffffff;
     position: relative;
     flex-grow: 1; }
-    @media (min-with: 720px) and (max-width: 1319px) {
-      .boxes__box {
-        width: 25%; } }
     @media (min-width: 1320px) {
       .boxes__box {
-        width: 322px; }
+        width: 322px;
+        min-height: 516px; }
         .boxes__box:nth-child(2) {
           top: -50px; }
         .boxes__box:nth-child(3) {
