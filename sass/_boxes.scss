@@ -2,12 +2,14 @@
   background-color: $background-color-3;
   background-image: url(../img/boxes-background-transparent.png);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   padding: 80px 0 120px;
   align-items: stretch;
+  @media (min-width: 1200px) {
+    flex-direction: row;
+  }
   &__box {
-    width: 322px;
     padding: 90px 30px 95px;
     border: 2px solid;
     border-color: $border-color-1;
@@ -17,15 +19,22 @@
     background-color: $background-color-2;
     position: relative;
     flex-grow: 1;
-     &:nth-child(2) {
-      top: -50px;
+    @media (min-with: 720px) and (max-width: 1319px) {
+      width: 25%;
     }
-     &:nth-child(3) {
-      top: -100px;
+    @media (min-width: 1320px) {
+      width: 322px;
+      &:nth-child(2) {
+        top: -50px;
+      }
+      &:nth-child(3) {
+        top: -100px;
+      }
+      &:nth-child(4) {
+        top: -150px;
+      }
     }
-     &:nth-child(4) {
-      top: -150px;
-    }
+
    &__header {
       font-size: 23px;
       font-weight: bold;
@@ -35,12 +44,14 @@
     &__content {
       font-size: 21px;
     }
-    &--transparent-top {
-      border: 3px solid $border-color-2;
-      position: relative;
-      z-index: 99;
-      background: none;
-      background-image: linear-gradient(to bottom, rgba($background-color-2, 0) 0%, white 19%);
+    @media (min-width: 1200px) {
+      &--transparent-top {
+        border: 3px solid $border-color-2;
+        position: relative;
+        z-index: 99;
+        background: none;
+        background-image: linear-gradient(to bottom, rgba($background-color-2, 0) 0%, white 19%);
+      }
     }
   }
 }

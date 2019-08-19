@@ -45,24 +45,36 @@
 .carousel-slider {
   margin-left: auto;
   margin-right: auto;
-  width: 1154px;
   margin-top: 76px;
+  @media (min-width: 1200px) {
+    width: 1154px;
+  }
+}
+.slick-prev {
+  left: 20px;
 }
 
-.slick-slide {
-  width: 278px;
+.slick-next {
+  right: 20px;
 }
+
+@media (min-width: 1200px) {
+  .slick-prev {
+    left: -41px;
+  }
+  .slick-next {
+    right: -6px;
+  }
+  .slick-slide {
+    width: 278px;
+  }
+}
+
 
 .slick-prev, .slick-next {
   top: 36%;
 }
-.slick-prev {
-  left: -41px;
-}
 
-.slick-next {
-  right: -6px;
-}
 
 .slick-prev:before, .slick-next:before {
   color: #d8d8d8;

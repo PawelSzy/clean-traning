@@ -1,17 +1,23 @@
 .big-container {
+  @media (min-width: 1357px) {
   width: 1357px;
   margin-left: auto;
   margin-right: auto;
+  }
 }
 
 .medium-container {
+  @media (min-width: 1320px) {
   width: 1320px;
   margin-left: auto;
   margin-right: auto;
+  }
 }
 
 .small-container {
+  @media (min-width: 1200px) {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  }
 }
