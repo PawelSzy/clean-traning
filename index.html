@@ -32,12 +32,21 @@
 
         <header class="hero-banner">
             <div class="header">
-                <nav class="big-container header__navigation">
-                    <ul class="navigation">
-                        <li class="navigation__item navigation__item--active"><a href="">Home</a></li>
-                        <li class="navigation__item"><a href="">About Us</a></li>
-                        <li class="navigation__item"><a href="">Contact Us</a></li>
-                    </ul>
+                <nav class="big-container header__navigation" role="navigation">
+                    <div id="menuToggle">
+                        <input type="checkbox"/>
+
+                        <!--Some spans to act as a hamburger-->
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                        <ul class="navigation" id="menu">
+                            <li class="navigation__item navigation__item--active"><a href="">Home</a></li>
+                            <li class="navigation__item"><a href="">About Us</a></li>
+                            <li class="navigation__item"><a href="">Contact Us</a></li>
+                        </ul>
+                    </div>
                 </nav>
             </div>
 
